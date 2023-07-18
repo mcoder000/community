@@ -17,7 +17,7 @@ public class DiscussPostService {
 
     }
 //查询某一行
-    public int findDiscussPostRaws(int userId){
+    public int findDiscussPostRows(int userId){
         return discussPostMapper.selectDiscussPostRows(userId);
 
     }

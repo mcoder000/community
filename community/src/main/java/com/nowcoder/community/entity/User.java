@@ -7,6 +7,7 @@ public class User {
     private int id;
     private String username;
     private String password;
+//一串随机的数字，用于拼接密码，用来加密密码
     private String salt;
     private String email;
     private int type;
